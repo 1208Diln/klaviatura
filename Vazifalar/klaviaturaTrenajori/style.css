@@ -1,0 +1,170 @@
+.letterBtn{
+    animation: ColorBG 4s linear infinite;
+   -webkit-animation: ColorBG 4s ease-in-out infinite;
+ }
+
+ @keyframes ColorBG{
+   0%{
+     background-color:#A0D468;
+   }
+
+   20%{
+     background-color:#4FC1E9;
+   }
+
+   40%{
+     background-color:#FFCE54;
+   }
+
+   60%{
+     background-color:#57fc51;
+   }
+
+   80%{
+     background-color:#55dbed;
+   }
+
+   100%{
+     background-color:#AC92EC;
+   }
+ }
+
+ @-moz-keyframes ColorBG{
+   0%{
+     background-color:#A0D468;
+   }
+
+   20%{
+     background-color:#4FC1E9;
+   }
+
+   40%{
+     background-color:#FFCE54;
+   }
+
+   60%{
+     background-color:#51fc76;
+   }
+
+   80%{
+     background-color:#e8ed55;
+   }
+
+   100%{
+     background-color:#AC92EC;
+   }
+ }
+
+ @-webkit-keyframes ColorBG{
+   0%{
+     background-color:#A0D468;
+   }
+
+   20%{
+     background-color:#4FC1E9;
+   }
+
+   40%{
+     background-color:#FFCE54;
+   }
+
+   60%{
+     background-color:#7cfc51;
+   }
+
+   80%{
+     background-color:#555ded;
+   }
+
+   100%{
+     background-color:#AC92EC;
+   }
+ }
+
+ .title h2{
+  animation: Color 4s linear infinite;
+ -webkit-animation: Color 4s ease-in-out infinite;
+}
+
+@keyframes Color{
+ 0%{
+   color:#A0D468;
+ }
+
+ 20%{
+   color:#4FC1E9;
+ }
+
+ 40%{
+   color:#FFCE54;
+ }
+
+ 60%{
+   color:#51fc57;
+ }
+
+ 80%{
+   color:#6755ed;
+ }
+
+ 100%{
+   color:#AC92EC;
+ }
+}
+
+@-moz-keyframes Color{
+ 0%{
+   color:#A0D468;
+ }
+
+ 20%{
+   color:#4FC1E9;
+ }
+
+ 40%{
+   color:#FFCE54;
+ }
+
+ 60%{
+   color:#d4fc51;
+ }
+
+ 80%{
+   color:#5d55ed;
+ }
+
+ 100%{
+   color:#AC92EC;
+ }
+}
+
+@-webkit-keyframes Color{
+ 0%{
+   color:#A0D468;
+ }
+
+ 20%{
+   color:#4FC1E9;
+ }
+
+ 40%{
+   color:#FFCE54;
+ }
+
+ 60%{
+   color:#ddfc51;
+ }
+
+ 80%{
+   color:#5585ed;
+ }
+
+ 100%{
+   color:#AC92EC;
+ }
+}
+
+#true_answer, #false_answer {
+  padding: 15px 110px;
+  font-size: 20px;
+}
